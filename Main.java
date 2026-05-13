@@ -3,6 +3,11 @@ public class Main {
         produk p1 = new Elektronik("Samsung", 100000, 5, 2);
         Produk p2 = new Makanan("Bakso", 1000, 100, 3);
         Kasir kasir = new Kasir("Maman");
+
+        p1.tampilInfo();
+        kasir.tampilkIdentitas();
+        kasir.prosesBelanja(p1, 3);
+
     }
     
 }
