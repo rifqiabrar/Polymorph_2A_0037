@@ -11,4 +11,10 @@ public class Makanan extends Produk {
         System.out.println("Total Harga= " + hitungTotalHarga(jmlhBeli));
         return hitungTotalHarga(jmlhBeli) * 0.95;
     }
+
+    @Override
+    public void tampilInfo() {
+        super.tampilInfo();
+        System.out.println("Masa Kadaluarsa: " + kadaluarsa + " Hari");
+    }
 }
