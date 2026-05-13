@@ -8,6 +8,12 @@ public class Main {
         kasir.tampilkIdentitas();
         kasir.prosesBelanja(p1, 3);
 
+        System.out.println();
+        System.out.println();
+        p2.tampilINfo
+        kasir.tampilkIndentitas();
+        kasir.prosesBelanja(p2, 11);
+
     }
     
 }
